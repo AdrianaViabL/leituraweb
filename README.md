@@ -32,10 +32,10 @@ sudo apt-get install docker-compose
 
 Para a montagem do docker
 ``` bash
-sudo docker build url_read:v1 .
+sudo docker build url_read .
 ```
 
 Para executar:
 ``` bash
-sudo docker run -it url_read:v1 
+sudo docker run url_read
 ``` 
